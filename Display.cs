@@ -11,9 +11,9 @@ namespace Steam
 {
     class Display
     {
-        static string name = "Divineware"; // application name. right above the blurred text aka the secret on the licenses tab among other tabs
-        static string ownerid = "oziTPnPgrU"; // ownerid, found in account settings. click your profile picture on top right of dashboard and then account settings.
-        static string secret = "ffdff0c69e78940f8e7be34c58223a72df8e7becacbe58e3de33b525c3e78205"; // app secret, the blurred text on licenses tab and other tabs
+        static string name = ""; // application name. right above the blurred text aka the secret on the licenses tab among other tabs
+        static string ownerid = ""; // ownerid, found in account settings. click your profile picture on top right of dashboard and then account settings.
+        static string secret = ""; // app secret, the blurred text on licenses tab and other tabs
         static string version = "1.0"; // leave alone unless you've changed version on website
 
         public static api KeyAuthApp = new api(name, ownerid, secret, version);
