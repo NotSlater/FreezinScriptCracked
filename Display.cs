@@ -44,8 +44,8 @@ namespace Steam
             Console.WriteLine(@"              ╔════════════════════════════════════════════════════╗ ");     
             Console.WriteLine(@"               Version: 2.5 | Made by: NotSlater | Release: Cracked  ");
             Console.WriteLine(@"              ╚════════════════════════════════════════════════════╝ ");
-            Console.ForegroundColor = ConsoleColor.Green;
-            Console.WriteLine(@"                             Status: Undetected                   ");
+            Console.ForegroundColor = ConsoleColor.Red;
+            Console.WriteLine(@"                            Status: Probably Detected                   ");
             Console.WriteLine();
 
             Console.ForegroundColor = ConsoleColor.Cyan;
