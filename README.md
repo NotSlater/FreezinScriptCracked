@@ -1,5 +1,5 @@
 # FreezinScriptCracked
-Freezin was a rust script that was 95% pasted off of Amethyst.
+Freezin was a rust script that was 95% pasted off of Amethyst.  
 This was cracked in 15.72s (Actual terrible obfuscation)
 
 # How to use
