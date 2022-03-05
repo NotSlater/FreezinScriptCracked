@@ -5,19 +5,11 @@ using System.Threading;
 using System.Diagnostics;
 using System.Runtime.InteropServices;
 using System.Text;
-using KeyAuth;
 
 namespace Steam
 {
     class Display
     {
-        static string name = ""; // application name. right above the blurred text aka the secret on the licenses tab among other tabs
-        static string ownerid = ""; // ownerid, found in account settings. click your profile picture on top right of dashboard and then account settings.
-        static string secret = ""; // app secret, the blurred text on licenses tab and other tabs
-        static string version = "1.0"; // leave alone unless you've changed version on website
-
-        public static api KeyAuthApp = new api(name, ownerid, secret, version);
-
             [DllImport("Kernel32.dll")]
             private static extern IntPtr GetConsoleWindow();
             [DllImport("User32.dll")]
@@ -41,9 +33,9 @@ namespace Steam
             Console.WriteLine(@"   |    ___|     -|    ___|    ___|     __|    |     |__ |-     -|_     _|     __|");
             Console.WriteLine(@"   |___|   |___|__|_______|_______|_______|____|_|___|__||___|___| |___| |_______|");
             Console.WriteLine();
-            Console.WriteLine(@"              ╔════════════════════════════════════════════════════╗ ");     
-            Console.WriteLine(@"               Version: 2.5 | Made by: NotSlater | Release: Cracked  ");
-            Console.WriteLine(@"              ╚════════════════════════════════════════════════════╝ ");
+            Console.WriteLine(@"              ╔═══════════════════════════════════════════════════════╗ ");     
+            Console.WriteLine(@"               Version: 2.5 | Cracked by: NotSlater | Release: Cracked  ");
+            Console.WriteLine(@"              ╚═══════════════════════════════════════════════════════╝ ");
             Console.ForegroundColor = ConsoleColor.Red;
             Console.WriteLine(@"                            Status: Probably Detected                   ");
             Console.WriteLine();
